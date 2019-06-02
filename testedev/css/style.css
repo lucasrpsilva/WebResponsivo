@@ -1,0 +1,192 @@
+*,html,body
+{
+    margin: auto;
+    padding: inherit;
+    background-image: url("../imagens/HubblefyBG.jpg");
+}
+
+.botao
+{
+    clear: both;
+    display: block;
+    font-weight: bold;
+}
+
+#membro
+{
+    background: chartreuse;
+    border-color: chartreuse;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    font-size-adjust: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#membro:hover
+{
+    color: orange;
+}
+
+#org
+{
+    background: orange;
+    border-color: orange;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    font-stretch: expanded;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+
+#org:hover
+{
+    color: yellow;
+}
+
+#convites
+{
+    background: orange;
+    border-color: orange;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    font-stretch: expanded;
+    align-content: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+
+#convites:hover
+{
+    color: yellow;
+}
+
+header div h3
+{
+    font-weight: bold;
+    margin-left: 40%;
+}
+
+header div h4
+{
+    margin-left: 25%;
+}
+
+#formulario
+{
+    margin-left: 45%;
+    margin-top: 25px;
+}
+
+form label
+{
+    display: block;
+    color: orange;
+}
+
+#salvar
+{
+    background: gray;
+    border-color: gray;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    font-size-adjust: auto;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#salvar:hover
+{
+    background: chartreuse;
+    border-color: chartreuse;
+}
+
+#salvar2
+{
+    background: gray;
+    border-color: gray;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    font-size-adjust: auto;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#salvar2:hover
+{
+    background: chartreuse;
+    border-color: chartreuse;
+}
+
+#cancelar
+{
+    transition: all 0.3s ease-in-out;
+    border-style: none;
+    margin-left: 70px;
+    color: orange;
+}
+
+#cancelar:hover
+{
+    color: orangered;
+}
+
+#deletar
+{
+    transition: all 0.3s ease-in-out;
+    background-image: url("../imagens/x.png");
+    margin-top: 10px;
+    margin-left: 85px;
+    padding: 12px;
+}
+
+#deletar:hover
+{
+    color: black;
+}
+
+#lista button
+{
+    background: papayawhip;
+    opacity: 0.7;
+    border-color: papayawhip;
+    color: black;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    font-size-adjust: auto;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 42%;
+    margin-bottom: 10px;
+}
+
+#lista button:hover
+{
+    background: gray;
+    border-color: gray;
+    opacity: 1;
+}

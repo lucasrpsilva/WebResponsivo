@@ -1,0 +1,51 @@
+<div id="add-members-page">
+  <h1>Membros da Org</h1>
+
+  <!-- LISTA DE MEMBROS: SÓ APARECE SE O FORM NÃO ESTIVER ABERTO E QUANDO TEM 1 OU MAIS MEMBROS ADICIONADOS -->
+  <ul class="added-members">
+    <li>
+      <a href="#">
+        <strong>accessLevel</strong> name
+      </a>
+      <button>x</button>
+    </li>
+  </ul>
+  <!-- BOTÃO: SÓ APARECE SE O FORM NÃO ESTIVER ABERTO -->
+  <button>Adicionar membro</button>
+
+  <!-- FORM -->
+  <form>
+    <label>
+      Nome:
+      <input type="text" required />
+    </label>
+
+    <label>
+      Email:
+      <input type="email" required />
+    </label>
+
+    <label>
+      Departamento:
+      <input type="text" required />
+    </label>
+
+    <label>
+      Nível de Acesso:
+      <select type="text" required>
+        <option value="user">Usuário</option>
+        <option value="reader">Leitor</option>
+        <option value="admin">Admin</option>
+      </select>
+    </label>
+
+    <button type="submit">Salvar</button>
+    <button type="reset">Cancelar</button>
+  </form>
+
+  <!-- BOTÃO: SÓ APARECE SE O FORM NÃO ESTIVER ABERTO E QUANDO TEM 1 OU MAIS MEMBROS ADICIONADOS -->
+  <button>Enviar convite</button>
+
+  <!-- BOTÃO: SÓ APARECE SE O FORM NÃO ESTIVER ABERTO E QUANDO NÃO TEM MEMBROS ADICIONADOS -->
+  <button>Ir para org</button>
+</div>
