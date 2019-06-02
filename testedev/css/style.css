@@ -1,6 +1,7 @@
 *,html,body
 {
     margin: auto;
+    margin-top: 1%;
     padding: inherit;
     background-image: url("../imagens/HubblefyBG.jpg");
 }
@@ -131,6 +132,7 @@ form label
     padding-right: 75px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-left: -3%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
